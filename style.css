@@ -1,0 +1,100 @@
+img {
+	width: 700px;
+}
+
+#bannerImg {
+	width: 100%;
+	position: relative;
+}
+
+#logo {
+	width: 10%;
+	top: 10%;
+	left: 5%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff0f0;
+	text-align: center;
+}
+
+
+h1 {
+	font-size: 260%;
+	text-align: left;
+	top: 40%;
+	left: 5%;
+}
+
+
+
+p {
+	font-size: 120%;
+	color: black;
+	padding-top: 3%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cardImgs {
+	width: 330px;
+	height: 330px;
+	object-fit: cover;
+	object-position: bottom left;
+	border-radius: 20px;
+	box-shadow: 0px 4px 4px gray;
+}
+
+#deepwaters {
+	object-position: center;
+}
+
+li {
+	list-style-type: none;
+	padding: 2%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#bannerDiv {
+	display: flex;
+}
+
+#cardsDiv, #listsDiv {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#listsDiv > div {
+	width: 30%;
+}
+
+#logo, h1, #bannerDiv > h2 {
+	position: absolute;
+}
+
+#bannerDiv > h2 {
+	top: 63%;
+	left: 5%;
+	font-weight: lighter;
+	font-size: 120%;
+	background-color: black;
+	color: white;
+	padding: 1.5% 2%;
+	border-radius: 50px;
+}
+
+h2 {
+	padding: 2%;
+}
+
+#listsDiv {
+	padding-bottom: 3%;
+}
